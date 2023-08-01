@@ -51,10 +51,10 @@ def get_html(url):
 
     try:
         id_name = browser.find_element_by_name("email")
-        id_name.send_keys('89507636551')
+        id_name.send_keys('')
         time.sleep(5)
         id_password = browser.find_element_by_name('pass')
-        id_password.send_keys('id7931822')
+        id_password.send_keys('')
         time.sleep(5)
         id_password.send_keys(Keys.ENTER)
         time.sleep(10)
